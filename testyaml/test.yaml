@@ -1,0 +1,20 @@
+database:
+ operation:
+  url: "zanroo_client:zanrooserver123#@10.130.119.236:1030,10.130.119.237:1030,10.130.119.238:1030/zanroo"
+  collection:
+   - social_app
+   - social_data
+   -
+   social_token
+   -
+   social_schedule
+mq:
+  server: "admin:zanrooadmin123@priproxy.ibgcompany.com"
+  name:
+  manager: task_manager_schedule
+  realtime: realtime_engagement
+system_info:
+  port: 8083
+  verify_token: 1234abcd
+  callback_url: "http://128.199.133.250"
+  callback_path: "/realtime/facebook"

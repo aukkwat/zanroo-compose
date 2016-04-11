@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Zanroo" uuid="609c2b5c-8717-4089-9549-e7aeb3928772">
+      <secret-storage>master_key</secret-storage>
+      <user-name>zanroo</user-name>
+      <schema-pattern>zanroodb7.*</schema-pattern>
+      <default-schemas>zanroodb7.*</default-schemas>
+    </data-source>
+  </component>
+</project>

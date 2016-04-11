@@ -1,0 +1,2 @@
+from connectedclass as test
+

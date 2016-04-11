@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../compose/compose/.idea/compose.iml" filepath="$PROJECT_DIR$/../compose/compose/.idea/compose.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../paralib/.idea/paralib.iml" filepath="$PROJECT_DIR$/../paralib/.idea/paralib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../paramikotest/.idea/paramikotest.iml" filepath="$PROJECT_DIR$/../paramikotest/.idea/paramikotest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/testdigital.iml" filepath="$PROJECT_DIR$/.idea/testdigital.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../testposeidon/.idea/testposeidon.iml" filepath="$PROJECT_DIR$/../testposeidon/.idea/testposeidon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../testyaml/.idea/testyaml.iml" filepath="$PROJECT_DIR$/../testyaml/.idea/testyaml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../zanrooinstall/.idea/zanrooinstall.iml" filepath="$PROJECT_DIR$/../zanrooinstall/.idea/zanrooinstall.iml" />
+    </modules>
+  </component>
+</project>

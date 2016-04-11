@@ -1,0 +1,61 @@
+zanroo:
+  user: root
+  pass: bigmaster
+  key: ~/.ssh/zanroo
+# Zanroo Service
+  account_manager:
+    host:
+      - 111.111.111.111
+      - 222.222.222.222
+      - 333.333.333.333
+      - 444.444.444.44
+# Service Connect
+    links:
+      loadbalancer:
+  # MongoDB or Mongos
+      mongos_main:
+        host:
+        - 10.130.119.236
+        - 10.130.119.237
+        - 10.130.119.238
+        port: 1030
+        auth_user: zanroo_client
+        auth_pass: zanrooserver123#
+        db_name: zanroo
+      mongos_operation:
+        host:
+        - 10.130.153.225
+        - 10.130.153.51
+        - 10.130.153.40
+        - 10.130.142.147
+        port: 1030
+        auth_user: zanroo_client
+        auth_pass: zanrooserver123#
+        db_name: zanroo
+  # Elastic Search
+      indexer:
+        host:
+        - 10.130.8.200
+        - 10.130.3.99
+        - 10.130.8.200
+        port: 1030
+        auth_user: zanroo
+        auth_pass: zanrooserver123#
+  # Redis DB
+      redis:
+  # Queue
+      rabbitmq:
+        host: priproxy.ibgcompany.com
+        auth_user: admin
+        auth_pass: zanrooadmin123
+        prefetch: 5
+        name:
+            mqIn: task_social_data_engagement_new
+            facebook: task_manager_engagement
+            twitter: task_manager_engagement
+            instagram: task_manager_engagement
+            youtube: task_manager_engagement
+            pantip: task_manager_engagement
+            notification: task_notification_in
+  socialworker:
+
