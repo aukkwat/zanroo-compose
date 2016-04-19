@@ -27,9 +27,13 @@ class ServiceAction():
 class InstallService():
     def git_pull_code(self):
         print 'CodePulling from GitHub'
+        git pull %servicename
     def hg_pull_code(self):
+        hg pull %servicename
         print 'CodePulling from BitBucket'
     def config_upstart(self):
+        ref servicename
+        echo upstart path >> /etc/init.d/%servicename.conf
         print 'Upstart %ServiceName Installed'
 
 class PreInstall():
